@@ -1,0 +1,1 @@
+{"id":"09337580-56b8-11ea-971f-6167006234f8","name":"dhirendra","email":"dhirendra@gmail.com","password":"$2a$08$uCVMQbgW.JDPKWugqXdgh.udfmfuMe56CqAMInsRw9wjFMmIdlQSC"}
