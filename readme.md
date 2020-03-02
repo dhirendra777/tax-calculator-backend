@@ -2,12 +2,12 @@
 
 Prerequisites :
 - node (>10).
-
-Backend 
-For that follow the below steps :
-1. For running frontend.
+ 
+Follow the below steps for starting the app :
 ``` bash
  $ cd ${source_folder}
  $ npm install
  $ npm start
 ```
+
+App will start at port 3000
