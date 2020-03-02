@@ -16,6 +16,9 @@ module.exports = function ({ app, localStorage }) {
 			if(!(name && email && password)) {
 				return res.status(422).send({ message: 'Please provide all the mandatory fields.' });
 			}
+			if(localStorage.getItem(`user_${email}`)) {
+				return res.status(422).send({ message: 'User already exists.' });
+			}
 
 			localStorage.setItem(`user_${email}`, JSON.stringify({ id: uid, name, email, password }));
 			var token = jwt.sign({ id: uid, email: email}, config.secret, {
